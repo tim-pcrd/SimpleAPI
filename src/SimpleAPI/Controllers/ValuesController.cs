@@ -28,5 +28,11 @@ namespace SimpleAPI.Controllers
         {
            return "Tim P";
         }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {   
+            return Ok();
+        }
     }
 }
